@@ -1,3 +1,5 @@
+const {pluginsPatch} = require('./webpack-helpers/pluginsPatch');
+
 module.exports = function (webpackConfig, isDevelopment) {
-    // mutate webpackConfig
+    pluginsPatch(webpackConfig, isDevelopment)
 };

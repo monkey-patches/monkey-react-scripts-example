@@ -6,7 +6,8 @@
     "monkey-react-scripts": "^0.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "webpack-visualizer-plugin": "^0.1.11"
   },
   "scripts": {
     "start": "monkey-react-scripts start",
