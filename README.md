@@ -13,5 +13,10 @@
   - add `./webpack-helpers/pluginsPatch.js` and use it in `webpack.monkey.js` 
   - build project: `yarn build`
   - check `build/stats.html` file
+- add decorator support
+  - add package `yarn add babel-plugin-transform-decorators-legacy`
+  - and `webpack-helpers/utils.js` (add `findRule` function)
+  - add `webpack-helpers/babelPatch.js` and use it in `webpack.monkey.js`
+  - add and use sample decorator
 
 [monkey-react-scripts]: https://github.com/monkey-patches/monkey-react-scripts
