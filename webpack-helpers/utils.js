@@ -4,3 +4,8 @@ module.exports.findRule = function findRule(webpackConfig, callback) {
     if (index === -1) throw Error('Loader not found');
     return rules[index]
 };
+
+module.exports.addRule = function addRule (webpackConfig, rule) {
+    const rules = webpackConfig.module.rules[1].oneOf
+    rules.splice(rules.length - 1, 0, rule) // add before exclude rule
+}

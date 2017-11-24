@@ -18,5 +18,10 @@
   - and `webpack-helpers/utils.js` (add `findRule` function)
   - add `webpack-helpers/babelPatch.js` and use it in `webpack.monkey.js`
   - add and use sample decorator
+- add sass support
+  - add package `yarn add node-sass sass-loader`
+  - edit `webpack-helpers/utils.js` (add `addRule` function)
+  - add `webpack-helpers/sassPatch.js` and use it in `webpack.monkey.js`
+  - add and use sample sass file
 
 [monkey-react-scripts]: https://github.com/monkey-patches/monkey-react-scripts

@@ -1,10 +1,11 @@
 import React , {Component} from 'react'
+import './sample.scss'
 
 function withRedBorder(Cmp) {
     class NewCmp extends Component {
       render () {
         return (
-            <div style={{border: '1px solid red', padding: 8}}>
+            <div style={{border: '1px solid red', padding: 8}} className="red-bg">
                 <Cmp {...this.props}/>
             </div>
         )
