@@ -2,4 +2,5 @@ $color: lighten(red, 30%);
 
 .red-bg {
   background-color: $color;
+  border-left: 4px solid red !important;
 }

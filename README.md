@@ -23,5 +23,9 @@
   - edit `webpack-helpers/utils.js` (add `addRule` function)
   - add `webpack-helpers/sassPatch.js` and use it in `webpack.monkey.js`
   - add and use sample sass file
+- edit postcss configs
+  - add package `yarn add postcss-inline-rtl`
+  - edit `webpack-helpers/sassPatch.js`
+  - add required changes in `src/index.js` and `sample.scss`
 
 [monkey-react-scripts]: https://github.com/monkey-patches/monkey-react-scripts
