@@ -1,4 +1,5 @@
 # monkey-react-scripts example
+This repository is used as an minimal example of using the [monkey-react-scripts] and [create-react-app] customization without ejecting or `--scripts-version` flag.
 
 ## what happened
 - create app 
@@ -29,6 +30,7 @@
   - add required changes in `src/index.js` and `sample.scss`
 
 [monkey-react-scripts]: https://github.com/monkey-patches/monkey-react-scripts
+[create-react-app]: https://github.com/facebookincubator/create-react-app
 
 [9095c31]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/9095c31572d5aded2cd9b66c2d356a3b73bcc8ed
 [cbdf2d5]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/cbdf2d5be89e30cef21408eb96704a33791aecb7
