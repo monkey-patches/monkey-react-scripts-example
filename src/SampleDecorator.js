@@ -16,10 +16,12 @@ function withRedBorder(Cmp) {
 }
 
 @withRedBorder
-export class Sample extends Component {
+class Sample extends Component {
   render () {
     return (<div>Sample With Decorator</div>)
   }
 }
 
 Sample.propTypes = {}
+
+export {Sample}
