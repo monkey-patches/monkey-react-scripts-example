@@ -22,12 +22,17 @@ This repository is used as an minimal example of using the [monkey-react-scripts
 - add sass support ([cbdf2d5])
   - add package `yarn add node-sass sass-loader`
   - edit `webpack-helpers/utils.js` (add `addRule` function)
-  - add `webpack-helpers/sassPatch.js` and use it in `webpack.monkey.js`
+  - add `webpack-helpers/cssPatch.js` and use it in `webpack.monkey.js`
   - add and use sample sass file
 - edit postcss configs ([9095c31])
   - add package `yarn add postcss-inline-rtl`
-  - edit `webpack-helpers/sassPatch.js`
+  - edit `webpack-helpers/cssPatch.js`
   - add required changes in `src/index.js` and `sample.scss`
+- upgrade to react-scripts@2.0.3 ([d759030])
+  - upgrade dependencies
+  - change decorator plugin
+  - remove sass-loader and rename sassPatch.js to cssPatch.js
+  - change patches to support create-react-app@2 
 
 [monkey-react-scripts]: https://github.com/monkey-patches/monkey-react-scripts
 [create-react-app]: https://github.com/facebookincubator/create-react-app
@@ -38,3 +43,4 @@ This repository is used as an minimal example of using the [monkey-react-scripts
 [f966fce]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/f966fce01c592f67bee451728bd7028f9f266c1e
 [93566ba]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/93566ba660e7d40b946d6c96fbbb74820e95b6f4
 [ca1a7b9]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/ca1a7b9b741a67a7891a9a3068c10ac666d750e6
+[d759030]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/d759030325ca2d638b1ea0dd44e51655b88d5022
