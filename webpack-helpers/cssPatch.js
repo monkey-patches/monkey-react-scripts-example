@@ -11,7 +11,7 @@ module.exports.cssPatch = function cssPatch(webpackConfig, isDevelopment) {
     });
 
     cssRules.forEach((cssRule) => {
-        const cssLoaders = isDevelopment ? cssRule.use : cssRule.loader
+        const cssLoaders = cssRule.use
         cssLoaders.forEach((loader) => {
             if (loader.options && loader.options.ident === 'postcss') {
                 const postCssLoader = loader
