@@ -33,6 +33,12 @@ This repository is used as an minimal example of using the [monkey-react-scripts
   - change decorator plugin
   - remove sass-loader and rename sassPatch.js to cssPatch.js
   - change patches to support create-react-app@2 
+- upgrade to react-scripts@2.1.2 ([5c674b8])
+  - upgrade dependencies
+  - fix cssPatch.js
+- upgrade to monkey-react-scripts@0.2.0 ([8f1ec1c])
+  - add & enable `.babelrc`
+  - test works correctly
 
 [monkey-react-scripts]: https://github.com/monkey-patches/monkey-react-scripts
 [create-react-app]: https://github.com/facebookincubator/create-react-app
@@ -44,3 +50,5 @@ This repository is used as an minimal example of using the [monkey-react-scripts
 [93566ba]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/93566ba660e7d40b946d6c96fbbb74820e95b6f4
 [ca1a7b9]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/ca1a7b9b741a67a7891a9a3068c10ac666d750e6
 [d759030]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/d759030325ca2d638b1ea0dd44e51655b88d5022
+[5c674b8]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/5c674b8d0d05d3c749b67952e2d3c1fd51ce0285
+[8f1ec1c]: https://github.com/monkey-patches/monkey-react-scripts-example/commit/8f1ec1c95de604f901cf788b8b5842fb22403a31
