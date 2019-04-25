@@ -17,7 +17,7 @@ module.exports.cssPatch = function cssPatch(webpackConfig, isDevelopment) {
                 const postCssLoader = loader
                 const postCssFunction = postCssLoader.options.plugins
                 postCssLoader.options.plugins = () => {
-                    return [...postCssFunction(), require('postcss-inline-rtl')]
+                    return [...postCssFunction(), require('rtlcss')]
                 }
             }
         });
