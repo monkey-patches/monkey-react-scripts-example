@@ -6665,10 +6665,10 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   dependencies:
     minimist "0.0.8"
 
-monkey-react-scripts@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/monkey-react-scripts/-/monkey-react-scripts-0.2.1.tgz#caa3ddf746b47745b07f94f9ebfd713924cb95f5"
-  integrity sha512-WcTIUpPgUApFIpxL9IpsIbh3VW3WB/NTo5oM5GnmoF6/Ihr0Fu7kCSQqn0rRP4pxujNIMM3G2GGsIe7sLqhwRg==
+monkey-react-scripts@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/monkey-react-scripts/-/monkey-react-scripts-0.2.2.tgz#c26332332b227147e0175f24972fbe36d48ec0a3"
+  integrity sha512-rxj4qN1QQZOaNV5lx0Dkkl2Z9PAsNa8/JVIoS3qWrIKCcmrQRlv8njxPjtuhcxfoLVQgC8yrGoU0JOe1S6xcdQ==
   dependencies:
     react-dev-utils "^5.0.0"
 
