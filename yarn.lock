@@ -6715,10 +6715,10 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-monkey-react-scripts@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/monkey-react-scripts/-/monkey-react-scripts-0.2.3.tgz#971ae6668badaf83cbad4f385681d41eea76d5bb"
-  integrity sha512-HzDdUorG9ibHEkvWR2TJD1GT8JioMmjZ5nPM8Mky4AbhvPxVjEa0JgY+m4IOShQn9PPpirrCxhvLXj2yG7J2Ww==
+monkey-react-scripts@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/monkey-react-scripts/-/monkey-react-scripts-0.2.4.tgz#72ff4eb037a3629e4a7218072e4a7a984cc115c3"
+  integrity sha512-sBadXCL6xO34n/YkR5RRcQiWzWK7yjQtgAw9cl40qlhHMRDb1K3uq8+dJhJ0mK7nfD5F/0v3eO5EH4UFXQgutQ==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
