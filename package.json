@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
     "monkey-react-scripts": "^0.2.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "rtlcss": "^2.4.1",
+    "react-scripts": "3.4.0",
+    "rtlcss": "^2.5.0",
     "webpack-visualizer-plugin": "^0.1.11"
   },
   "scripts": {
