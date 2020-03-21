@@ -6,9 +6,9 @@
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "monkey-react-scripts": "^0.2.4",
     "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
     "rtlcss": "^2.5.0",
     "webpack-visualizer-plugin": "^0.1.11"
   },
