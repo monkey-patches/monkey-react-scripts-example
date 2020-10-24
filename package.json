@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.12.1",
-    "monkey-react-scripts": "^0.2.4",
+    "monkey-react-scripts": "^0.3.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-scripts": "3.4.4",
+    "react-scripts": "4.0.0",
     "rtlcss": "^2.6.1",
     "webpack-visualizer-plugin": "^0.1.11"
   },
