@@ -13,12 +13,8 @@ module.exports.cssPatch = function cssPatch(webpackConfig, isDevelopment) {
     cssRules.forEach((cssRule) => {
         const cssLoaders = cssRule.use
         cssLoaders.forEach((loader) => {
-            if (loader.options && loader.options.ident === 'postcss') {
-                const postCssLoader = loader
-                const postCssFunction = postCssLoader.options.plugins
-                postCssLoader.options.plugins = () => {
-                    return [...postCssFunction(), require('rtlcss')]
-                }
+            if (loader.options && loader.options.postcssOptions && loader.options.postcssOptions.ident === 'postcss') {
+                loader.options.postcssOptions.plugins.push('rtlcss')
             }
         });
     });
